@@ -63,7 +63,7 @@ void loop() {
       IrReceiver.resume(); // Ready for next code
     }
   }
-  Serial.println(moving);
+  // Serial.println(moving);
   
   if (moving){
     if (goingUp){
